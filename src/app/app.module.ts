@@ -10,6 +10,8 @@ import { EnseignantEmploisComponent } from './pages/enseignant-emplois/enseignan
 import { SallesEmploisComponent } from './pages/salles-emplois/salles-emplois.component';
 import { EnseignantAbsenceComponent } from './pages/enseignant-absence/enseignant-absence.component';
 import { EtudiantAbsenceComponent } from './pages/etudiant-absence/etudiant-absence.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { EtudiantAbsenceComponent } from './pages/etudiant-absence/etudiant-abse
     EnseignantEmploisComponent,
     SallesEmploisComponent,
     EnseignantAbsenceComponent,
-    EtudiantAbsenceComponent
+    EtudiantAbsenceComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
