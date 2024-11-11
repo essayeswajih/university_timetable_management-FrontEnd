@@ -9,9 +9,7 @@ import { EnseignantAbsenceComponent } from './pages/enseignant-absence/enseignan
 import { EtudiantAbsenceComponent } from './pages/etudiant-absence/etudiant-absence.component';
 
 const routes: Routes = [
-  {
-    path:"**",component:HomePageComponent
-  },
+
   {
     path:"admin-emplois",component:AdminEmploisComponent
   },
@@ -28,7 +26,10 @@ const routes: Routes = [
     path:"etudiant-absence",component:EtudiantAbsenceComponent
   },
   {
-    path:"salles-emplois",component:SallesEmploisComponent
+    path:"salle-emplois",component:SallesEmploisComponent
+  },
+  {
+    path:"**",component:HomePageComponent
   },
 ];
 
